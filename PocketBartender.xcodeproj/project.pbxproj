@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B03EFE1258D6AD7004DE501 /* ExtraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03EFE0258D6AD7004DE501 /* ExtraView.swift */; };
+		2B03F0E0259139A1004DE501 /* VodkaExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F0DF259139A1004DE501 /* VodkaExtras.swift */; };
+		2B03F122259152BA004DE501 /* VodkaWinterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F121259152BA004DE501 /* VodkaWinterView.swift */; };
+		2B03F125259152CD004DE501 /* VodkaSummerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F124259152CD004DE501 /* VodkaSummerView.swift */; };
+		2B03F128259152E5004DE501 /* VodkaStrongerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F127259152E5004DE501 /* VodkaStrongerView.swift */; };
+		2B03F12B259152F5004DE501 /* VodkaSweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F12A259152F5004DE501 /* VodkaSweetView.swift */; };
+		2B03F15825915FCA004DE501 /* VodkaWinterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F15725915FCA004DE501 /* VodkaWinterList.swift */; };
+		2B03F19A25917ACA004DE501 /* VodkaSummerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F19925917ACA004DE501 /* VodkaSummerList.swift */; };
+		2B03F19D25917CE2004DE501 /* VodkaStrongerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F19C25917CE2004DE501 /* VodkaStrongerList.swift */; };
+		2B03F1A025917EBA004DE501 /* VodkaSweetList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F19F25917EBA004DE501 /* VodkaSweetList.swift */; };
+		2B03F1B82592796D004DE501 /* WhiskeyExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1B72592796D004DE501 /* WhiskeyExtras.swift */; };
+		2B03F1BB25927C18004DE501 /* WhiskeyWinterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1BA25927C18004DE501 /* WhiskeyWinterView.swift */; };
+		2B03F1BE25927D74004DE501 /* WHiskeyWinterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1BD25927D74004DE501 /* WHiskeyWinterList.swift */; };
+		2B03F1C125927E2F004DE501 /* WhiskeySummerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1C025927E2F004DE501 /* WhiskeySummerView.swift */; };
+		2B03F1C425927F58004DE501 /* WhiskeySummerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1C325927F58004DE501 /* WhiskeySummerList.swift */; };
+		2B03F1C725928047004DE501 /* WhiskeyStrongerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1C625928047004DE501 /* WhiskeyStrongerView.swift */; };
+		2B03F1CA25928174004DE501 /* WhiskeyStrongerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1C925928174004DE501 /* WhiskeyStrongerList.swift */; };
+		2B03F1CD2592820B004DE501 /* WhiskeySweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1CC2592820B004DE501 /* WhiskeySweetView.swift */; };
+		2B03F1D0259282FA004DE501 /* WhiskeySweetList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1CF259282FA004DE501 /* WhiskeySweetList.swift */; };
+		2B03F1D3259283CB004DE501 /* RumExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1D2259283CB004DE501 /* RumExtras.swift */; };
+		2B03F1D6259285BC004DE501 /* RumWinterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1D5259285BC004DE501 /* RumWinterView.swift */; };
+		2B03F1D9259285CB004DE501 /* RumWinterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1D8259285CB004DE501 /* RumWinterList.swift */; };
+		2B03F1DC259285DC004DE501 /* RumSummerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1DB259285DC004DE501 /* RumSummerView.swift */; };
+		2B03F1DF259285EB004DE501 /* RumSummerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1DE259285EB004DE501 /* RumSummerList.swift */; };
+		2B03F1E2259285FD004DE501 /* RumStrongerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1E1259285FD004DE501 /* RumStrongerView.swift */; };
+		2B03F1E52592860F004DE501 /* RumStrongerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1E42592860F004DE501 /* RumStrongerList.swift */; };
+		2B03F1E825928620004DE501 /* RumSweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1E725928620004DE501 /* RumSweetView.swift */; };
+		2B03F1EB25928631004DE501 /* RumSweetList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1EA25928631004DE501 /* RumSweetList.swift */; };
+		2B03F1EE25928CBD004DE501 /* GinExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1ED25928CBD004DE501 /* GinExtras.swift */; };
+		2B03F1F125928E5E004DE501 /* GinWinterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1F025928E5E004DE501 /* GinWinterView.swift */; };
+		2B03F1F425928E6F004DE501 /* GinSummerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1F325928E6F004DE501 /* GinSummerView.swift */; };
+		2B03F1F725928E80004DE501 /* GinStrongerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1F625928E80004DE501 /* GinStrongerView.swift */; };
+		2B03F1FA25928E90004DE501 /* GinSweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1F925928E90004DE501 /* GinSweetView.swift */; };
+		2B03F1FD25928EA1004DE501 /* GinWinterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1FC25928EA1004DE501 /* GinWinterList.swift */; };
+		2B03F20025928EAF004DE501 /* GinSummerlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F1FF25928EAF004DE501 /* GinSummerlist.swift */; };
+		2B03F20325928EC1004DE501 /* GinStrongerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F20225928EC1004DE501 /* GinStrongerList.swift */; };
+		2B03F20625928ED3004DE501 /* GinSweetList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F20525928ED3004DE501 /* GinSweetList.swift */; };
+		2B03F20925929426004DE501 /* CognacExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F20825929426004DE501 /* CognacExtras.swift */; };
+		2B03F20C2592959A004DE501 /* CognacWinterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F20B2592959A004DE501 /* CognacWinterView.swift */; };
+		2B03F20F259295AA004DE501 /* CognacSummerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F20E259295AA004DE501 /* CognacSummerView.swift */; };
+		2B03F212259295BC004DE501 /* CognacStrongerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F211259295BC004DE501 /* CognacStrongerView.swift */; };
+		2B03F215259295CE004DE501 /* CognacSweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F214259295CE004DE501 /* CognacSweetView.swift */; };
+		2B03F218259296B9004DE501 /* CognacWinterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F217259296B9004DE501 /* CognacWinterList.swift */; };
+		2B03F21B259296C9004DE501 /* CognacSummerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F21A259296C9004DE501 /* CognacSummerList.swift */; };
+		2B03F21E259296DC004DE501 /* CognacStrongerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F21D259296DC004DE501 /* CognacStrongerList.swift */; };
+		2B03F221259296EA004DE501 /* CognacSweetList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F220259296EA004DE501 /* CognacSweetList.swift */; };
+		2B03F22425929B14004DE501 /* TequilaExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F22325929B14004DE501 /* TequilaExtras.swift */; };
+		2B03F22725929C41004DE501 /* TequilaWinterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F22625929C41004DE501 /* TequilaWinterView.swift */; };
+		2B03F22A25929C59004DE501 /* TequilaSummerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F22925929C59004DE501 /* TequilaSummerView.swift */; };
+		2B03F22D25929C6C004DE501 /* TequilaStrongerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F22C25929C6C004DE501 /* TequilaStrongerView.swift */; };
+		2B03F23025929C80004DE501 /* TequilaSweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F22F25929C80004DE501 /* TequilaSweetView.swift */; };
+		2B03F23325929C90004DE501 /* TequilaWinterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F23225929C90004DE501 /* TequilaWinterList.swift */; };
+		2B03F23625929CA7004DE501 /* TequilaSummerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F23525929CA7004DE501 /* TequilaSummerList.swift */; };
+		2B03F23925929CBE004DE501 /* TequilaStrongerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F23825929CBE004DE501 /* TequilaStrongerList.swift */; };
+		2B03F23C25929CCF004DE501 /* TequilaSweetList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03F23B25929CCF004DE501 /* TequilaSweetList.swift */; };
+		2B4FBAEA25883AA300CB4D6F /* success lottie.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B4FBAE825883AA300CB4D6F /* success lottie.json */; };
+		2B4FBAEB25883AA300CB4D6F /* loading Lottie.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B4FBAE925883AA300CB4D6F /* loading Lottie.json */; };
+		2B4FBAEF25883D6D00CB4D6F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 2B4FBAEE25883D6D00CB4D6F /* Lottie */; };
+		2B4FBAF325883DD300CB4D6F /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4FBAF225883DD300CB4D6F /* LottieView.swift */; };
+		2B4FBAF62588415300CB4D6F /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4FBAF52588415300CB4D6F /* LoadingView.swift */; };
+		2B4FBAF9258843A500CB4D6F /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4FBAF8258843A500CB4D6F /* SuccessView.swift */; };
+		2B4FBAFC25884AD800CB4D6F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B4FBAFB25884AD800CB4D6F /* GoogleService-Info.plist */; };
+		2B4FBB3D25885D1F00CB4D6F /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4FBB3C25885D1E00CB4D6F /* UserStore.swift */; };
+		2B4FBB40258861E900CB4D6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4FBB3F258861E900CB4D6F /* SceneDelegate.swift */; };
+		2B4FBB43258861FA00CB4D6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4FBB42258861FA00CB4D6F /* AppDelegate.swift */; };
+		2B4FBBD9258D411100CB4D6F /* Extraslist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4FBBD8258D411100CB4D6F /* Extraslist.swift */; };
+		2BC2F76C2588123700CB87EE /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC2F76B2588123700CB87EE /* loginView.swift */; };
+		2BC2F7842588280C00CB87EE /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC2F7832588280C00CB87EE /* BlurView.swift */; };
+		2BDCE733257B159E005DEFFB /* PocketBartenderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCE732257B159E005DEFFB /* PocketBartenderApp.swift */; };
+		2BDCE735257B159E005DEFFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCE734257B159E005DEFFB /* ContentView.swift */; };
+		2BDCE737257B15A0005DEFFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDCE736257B15A0005DEFFB /* Assets.xcassets */; };
+		2BDCE73A257B15A0005DEFFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDCE739257B15A0005DEFFB /* Preview Assets.xcassets */; };
+		2BDCE768257D5E75005DEFFB /* VodkaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCE767257D5E75005DEFFB /* VodkaView.swift */; };
+		2BDCE76B257D5E8B005DEFFB /* WhiskeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCE76A257D5E8B005DEFFB /* WhiskeyView.swift */; };
+		2BDCE76E257D5EBB005DEFFB /* RumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCE76D257D5EBB005DEFFB /* RumView.swift */; };
+		2BDCE771257D5ED0005DEFFB /* GinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCE770257D5ED0005DEFFB /* GinView.swift */; };
+		2BDCE774257D5EE5005DEFFB /* CognacView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCE773257D5EE5005DEFFB /* CognacView.swift */; };
+		2BDCE777257D5EFE005DEFFB /* TequilaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCE776257D5EFE005DEFFB /* TequilaView.swift */; };
+		2BDCE77A257D5F17005DEFFB /* MocktailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCE779257D5F17005DEFFB /* MocktailView.swift */; };
+		2BDCE77D257D5F3A005DEFFB /* AdminView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCE77C257D5F3A005DEFFB /* AdminView.swift */; };
+		2BDCE783257DA748005DEFFB /* CocktailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCE782257DA748005DEFFB /* CocktailView.swift */; };
+		2BDCE78A25800959005DEFFB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCE78925800959005DEFFB /* HomeView.swift */; };
+		2BDCE79925815894005DEFFB /* WhiskeyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCE79825815894005DEFFB /* WhiskeyList.swift */; };
+		2BDCE79D25815B79005DEFFB /* RumList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCE79C25815B79005DEFFB /* RumList.swift */; };
+		2BDCE7A025815C9D005DEFFB /* GinList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCE79F25815C9D005DEFFB /* GinList.swift */; };
+		2BDCE7A325815DA1005DEFFB /* CognacList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCE7A225815DA1005DEFFB /* CognacList.swift */; };
+		2BDCE7A625815EBB005DEFFB /* TequilaList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCE7A525815EBB005DEFFB /* TequilaList.swift */; };
+		2BDCE7A9258160F0005DEFFB /* MocktailList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCE7A8258160F0005DEFFB /* MocktailList.swift */; };
+		B80065E4CD86857E82D62621 /* Pods_PocketBartender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226681F79E4AE60CE7715B08 /* Pods_PocketBartender.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		226681F79E4AE60CE7715B08 /* Pods_PocketBartender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketBartender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B03EFE0258D6AD7004DE501 /* ExtraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraView.swift; sourceTree = "<group>"; };
+		2B03F0DF259139A1004DE501 /* VodkaExtras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodkaExtras.swift; sourceTree = "<group>"; };
+		2B03F121259152BA004DE501 /* VodkaWinterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodkaWinterView.swift; sourceTree = "<group>"; };
+		2B03F124259152CD004DE501 /* VodkaSummerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodkaSummerView.swift; sourceTree = "<group>"; };
+		2B03F127259152E5004DE501 /* VodkaStrongerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodkaStrongerView.swift; sourceTree = "<group>"; };
+		2B03F12A259152F5004DE501 /* VodkaSweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodkaSweetView.swift; sourceTree = "<group>"; };
+		2B03F15725915FCA004DE501 /* VodkaWinterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodkaWinterList.swift; sourceTree = "<group>"; };
+		2B03F19925917ACA004DE501 /* VodkaSummerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodkaSummerList.swift; sourceTree = "<group>"; };
+		2B03F19C25917CE2004DE501 /* VodkaStrongerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodkaStrongerList.swift; sourceTree = "<group>"; };
+		2B03F19F25917EBA004DE501 /* VodkaSweetList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodkaSweetList.swift; sourceTree = "<group>"; };
+		2B03F1B72592796D004DE501 /* WhiskeyExtras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiskeyExtras.swift; sourceTree = "<group>"; };
+		2B03F1BA25927C18004DE501 /* WhiskeyWinterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiskeyWinterView.swift; sourceTree = "<group>"; };
+		2B03F1BD25927D74004DE501 /* WHiskeyWinterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHiskeyWinterList.swift; sourceTree = "<group>"; };
+		2B03F1C025927E2F004DE501 /* WhiskeySummerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiskeySummerView.swift; sourceTree = "<group>"; };
+		2B03F1C325927F58004DE501 /* WhiskeySummerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiskeySummerList.swift; sourceTree = "<group>"; };
+		2B03F1C625928047004DE501 /* WhiskeyStrongerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiskeyStrongerView.swift; sourceTree = "<group>"; };
+		2B03F1C925928174004DE501 /* WhiskeyStrongerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiskeyStrongerList.swift; sourceTree = "<group>"; };
+		2B03F1CC2592820B004DE501 /* WhiskeySweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiskeySweetView.swift; sourceTree = "<group>"; };
+		2B03F1CF259282FA004DE501 /* WhiskeySweetList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiskeySweetList.swift; sourceTree = "<group>"; };
+		2B03F1D2259283CB004DE501 /* RumExtras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RumExtras.swift; sourceTree = "<group>"; };
+		2B03F1D5259285BC004DE501 /* RumWinterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RumWinterView.swift; sourceTree = "<group>"; };
+		2B03F1D8259285CB004DE501 /* RumWinterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RumWinterList.swift; sourceTree = "<group>"; };
+		2B03F1DB259285DC004DE501 /* RumSummerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RumSummerView.swift; sourceTree = "<group>"; };
+		2B03F1DE259285EB004DE501 /* RumSummerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RumSummerList.swift; sourceTree = "<group>"; };
+		2B03F1E1259285FD004DE501 /* RumStrongerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RumStrongerView.swift; sourceTree = "<group>"; };
+		2B03F1E42592860F004DE501 /* RumStrongerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RumStrongerList.swift; sourceTree = "<group>"; };
+		2B03F1E725928620004DE501 /* RumSweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RumSweetView.swift; sourceTree = "<group>"; };
+		2B03F1EA25928631004DE501 /* RumSweetList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RumSweetList.swift; sourceTree = "<group>"; };
+		2B03F1ED25928CBD004DE501 /* GinExtras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GinExtras.swift; sourceTree = "<group>"; };
+		2B03F1F025928E5E004DE501 /* GinWinterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GinWinterView.swift; sourceTree = "<group>"; };
+		2B03F1F325928E6F004DE501 /* GinSummerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GinSummerView.swift; sourceTree = "<group>"; };
+		2B03F1F625928E80004DE501 /* GinStrongerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GinStrongerView.swift; sourceTree = "<group>"; };
+		2B03F1F925928E90004DE501 /* GinSweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GinSweetView.swift; sourceTree = "<group>"; };
+		2B03F1FC25928EA1004DE501 /* GinWinterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GinWinterList.swift; sourceTree = "<group>"; };
+		2B03F1FF25928EAF004DE501 /* GinSummerlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GinSummerlist.swift; sourceTree = "<group>"; };
+		2B03F20225928EC1004DE501 /* GinStrongerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GinStrongerList.swift; sourceTree = "<group>"; };
+		2B03F20525928ED3004DE501 /* GinSweetList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GinSweetList.swift; sourceTree = "<group>"; };
+		2B03F20825929426004DE501 /* CognacExtras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognacExtras.swift; sourceTree = "<group>"; };
+		2B03F20B2592959A004DE501 /* CognacWinterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognacWinterView.swift; sourceTree = "<group>"; };
+		2B03F20E259295AA004DE501 /* CognacSummerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognacSummerView.swift; sourceTree = "<group>"; };
+		2B03F211259295BC004DE501 /* CognacStrongerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognacStrongerView.swift; sourceTree = "<group>"; };
+		2B03F214259295CE004DE501 /* CognacSweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognacSweetView.swift; sourceTree = "<group>"; };
+		2B03F217259296B9004DE501 /* CognacWinterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognacWinterList.swift; sourceTree = "<group>"; };
+		2B03F21A259296C9004DE501 /* CognacSummerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognacSummerList.swift; sourceTree = "<group>"; };
+		2B03F21D259296DC004DE501 /* CognacStrongerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognacStrongerList.swift; sourceTree = "<group>"; };
+		2B03F220259296EA004DE501 /* CognacSweetList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognacSweetList.swift; sourceTree = "<group>"; };
+		2B03F22325929B14004DE501 /* TequilaExtras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TequilaExtras.swift; sourceTree = "<group>"; };
+		2B03F22625929C41004DE501 /* TequilaWinterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TequilaWinterView.swift; sourceTree = "<group>"; };
+		2B03F22925929C59004DE501 /* TequilaSummerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TequilaSummerView.swift; sourceTree = "<group>"; };
+		2B03F22C25929C6C004DE501 /* TequilaStrongerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TequilaStrongerView.swift; sourceTree = "<group>"; };
+		2B03F22F25929C80004DE501 /* TequilaSweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TequilaSweetView.swift; sourceTree = "<group>"; };
+		2B03F23225929C90004DE501 /* TequilaWinterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TequilaWinterList.swift; sourceTree = "<group>"; };
+		2B03F23525929CA7004DE501 /* TequilaSummerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TequilaSummerList.swift; sourceTree = "<group>"; };
+		2B03F23825929CBE004DE501 /* TequilaStrongerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TequilaStrongerList.swift; sourceTree = "<group>"; };
+		2B03F23B25929CCF004DE501 /* TequilaSweetList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TequilaSweetList.swift; sourceTree = "<group>"; };
+		2B4FBAE825883AA300CB4D6F /* success lottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "success lottie.json"; sourceTree = "<group>"; };
+		2B4FBAE925883AA300CB4D6F /* loading Lottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "loading Lottie.json"; sourceTree = "<group>"; };
+		2B4FBAF225883DD300CB4D6F /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		2B4FBAF52588415300CB4D6F /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		2B4FBAF8258843A500CB4D6F /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+		2B4FBAFB25884AD800CB4D6F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2B4FBB3C25885D1E00CB4D6F /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
+		2B4FBB3F258861E900CB4D6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2B4FBB42258861FA00CB4D6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B4FBBD8258D411100CB4D6F /* Extraslist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extraslist.swift; sourceTree = "<group>"; };
+		2BC2F76B2588123700CB87EE /* loginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
+		2BC2F7832588280C00CB87EE /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		2BDCE72F257B159E005DEFFB /* PocketBartender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketBartender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BDCE732257B159E005DEFFB /* PocketBartenderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketBartenderApp.swift; sourceTree = "<group>"; };
+		2BDCE734257B159E005DEFFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2BDCE736257B15A0005DEFFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BDCE739257B15A0005DEFFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BDCE73B257B15A0005DEFFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BDCE767257D5E75005DEFFB /* VodkaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodkaView.swift; sourceTree = "<group>"; };
+		2BDCE76A257D5E8B005DEFFB /* WhiskeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiskeyView.swift; sourceTree = "<group>"; };
+		2BDCE76D257D5EBB005DEFFB /* RumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RumView.swift; sourceTree = "<group>"; };
+		2BDCE770257D5ED0005DEFFB /* GinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GinView.swift; sourceTree = "<group>"; };
+		2BDCE773257D5EE5005DEFFB /* CognacView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognacView.swift; sourceTree = "<group>"; };
+		2BDCE776257D5EFE005DEFFB /* TequilaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TequilaView.swift; sourceTree = "<group>"; };
+		2BDCE779257D5F17005DEFFB /* MocktailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MocktailView.swift; sourceTree = "<group>"; };
+		2BDCE77C257D5F3A005DEFFB /* AdminView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminView.swift; sourceTree = "<group>"; };
+		2BDCE782257DA748005DEFFB /* CocktailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailView.swift; sourceTree = "<group>"; };
+		2BDCE78925800959005DEFFB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2BDCE79825815894005DEFFB /* WhiskeyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiskeyList.swift; sourceTree = "<group>"; };
+		2BDCE79C25815B79005DEFFB /* RumList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RumList.swift; sourceTree = "<group>"; };
+		2BDCE79F25815C9D005DEFFB /* GinList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GinList.swift; sourceTree = "<group>"; };
+		2BDCE7A225815DA1005DEFFB /* CognacList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognacList.swift; sourceTree = "<group>"; };
+		2BDCE7A525815EBB005DEFFB /* TequilaList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TequilaList.swift; sourceTree = "<group>"; };
+		2BDCE7A8258160F0005DEFFB /* MocktailList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MocktailList.swift; sourceTree = "<group>"; };
+		554D6715D41E9AF6128F5E4A /* Pods-PocketBartender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketBartender.debug.xcconfig"; path = "Target Support Files/Pods-PocketBartender/Pods-PocketBartender.debug.xcconfig"; sourceTree = "<group>"; };
+		788A61B524A08D96B87886A7 /* Pods-PocketBartender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketBartender.release.xcconfig"; path = "Target Support Files/Pods-PocketBartender/Pods-PocketBartender.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BDCE72C257B159E005DEFFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4FBAEF25883D6D00CB4D6F /* Lottie in Frameworks */,
+				B80065E4CD86857E82D62621 /* Pods_PocketBartender.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B4FBAE725883AA300CB4D6F /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				2B4FBAFB25884AD800CB4D6F /* GoogleService-Info.plist */,
+				2B4FBAE825883AA300CB4D6F /* success lottie.json */,
+				2B4FBAE925883AA300CB4D6F /* loading Lottie.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		2BDCE726257B159E005DEFFB = {
+			isa = PBXGroup;
+			children = (
+				2BDCE731257B159E005DEFFB /* PocketBartender */,
+				2BDCE730257B159E005DEFFB /* Products */,
+				97E5E943654D66668D6F1DE3 /* Pods */,
+				E00D8AF309F3A406553C1B7C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2BDCE730257B159E005DEFFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BDCE72F257B159E005DEFFB /* PocketBartender.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BDCE731257B159E005DEFFB /* PocketBartender */ = {
+			isa = PBXGroup;
+			children = (
+				2BDCE732257B159E005DEFFB /* PocketBartenderApp.swift */,
+				2B4FBB42258861FA00CB4D6F /* AppDelegate.swift */,
+				2B4FBB3F258861E900CB4D6F /* SceneDelegate.swift */,
+				2BDCE734257B159E005DEFFB /* ContentView.swift */,
+				2BC2F76B2588123700CB87EE /* loginView.swift */,
+				2B4FBB3C25885D1E00CB4D6F /* UserStore.swift */,
+				2BDCE78925800959005DEFFB /* HomeView.swift */,
+				2B4FBBD8258D411100CB4D6F /* Extraslist.swift */,
+				2B03EFE0258D6AD7004DE501 /* ExtraView.swift */,
+				2BDCE767257D5E75005DEFFB /* VodkaView.swift */,
+				2B03F121259152BA004DE501 /* VodkaWinterView.swift */,
+				2B03F124259152CD004DE501 /* VodkaSummerView.swift */,
+				2B03F127259152E5004DE501 /* VodkaStrongerView.swift */,
+				2B03F12A259152F5004DE501 /* VodkaSweetView.swift */,
+				2B03F0DF259139A1004DE501 /* VodkaExtras.swift */,
+				2BDCE76A257D5E8B005DEFFB /* WhiskeyView.swift */,
+				2B03F1BA25927C18004DE501 /* WhiskeyWinterView.swift */,
+				2B03F1C025927E2F004DE501 /* WhiskeySummerView.swift */,
+				2B03F1C625928047004DE501 /* WhiskeyStrongerView.swift */,
+				2B03F1CC2592820B004DE501 /* WhiskeySweetView.swift */,
+				2B03F1B72592796D004DE501 /* WhiskeyExtras.swift */,
+				2BDCE76D257D5EBB005DEFFB /* RumView.swift */,
+				2B03F1D5259285BC004DE501 /* RumWinterView.swift */,
+				2B03F1DB259285DC004DE501 /* RumSummerView.swift */,
+				2B03F1E1259285FD004DE501 /* RumStrongerView.swift */,
+				2B03F1E725928620004DE501 /* RumSweetView.swift */,
+				2B03F1D2259283CB004DE501 /* RumExtras.swift */,
+				2BDCE770257D5ED0005DEFFB /* GinView.swift */,
+				2B03F1F025928E5E004DE501 /* GinWinterView.swift */,
+				2B03F1F325928E6F004DE501 /* GinSummerView.swift */,
+				2B03F1F625928E80004DE501 /* GinStrongerView.swift */,
+				2B03F1F925928E90004DE501 /* GinSweetView.swift */,
+				2B03F1ED25928CBD004DE501 /* GinExtras.swift */,
+				2BDCE773257D5EE5005DEFFB /* CognacView.swift */,
+				2B03F20B2592959A004DE501 /* CognacWinterView.swift */,
+				2B03F20E259295AA004DE501 /* CognacSummerView.swift */,
+				2B03F211259295BC004DE501 /* CognacStrongerView.swift */,
+				2B03F214259295CE004DE501 /* CognacSweetView.swift */,
+				2B03F20825929426004DE501 /* CognacExtras.swift */,
+				2BDCE776257D5EFE005DEFFB /* TequilaView.swift */,
+				2B03F22625929C41004DE501 /* TequilaWinterView.swift */,
+				2B03F22925929C59004DE501 /* TequilaSummerView.swift */,
+				2B03F22C25929C6C004DE501 /* TequilaStrongerView.swift */,
+				2B03F22F25929C80004DE501 /* TequilaSweetView.swift */,
+				2B03F22325929B14004DE501 /* TequilaExtras.swift */,
+				2BDCE779257D5F17005DEFFB /* MocktailView.swift */,
+				2BDCE77C257D5F3A005DEFFB /* AdminView.swift */,
+				2BDCE782257DA748005DEFFB /* CocktailView.swift */,
+				2B03F15725915FCA004DE501 /* VodkaWinterList.swift */,
+				2B03F19925917ACA004DE501 /* VodkaSummerList.swift */,
+				2B03F19C25917CE2004DE501 /* VodkaStrongerList.swift */,
+				2B03F19F25917EBA004DE501 /* VodkaSweetList.swift */,
+				2BDCE79825815894005DEFFB /* WhiskeyList.swift */,
+				2B03F1BD25927D74004DE501 /* WHiskeyWinterList.swift */,
+				2B03F1C325927F58004DE501 /* WhiskeySummerList.swift */,
+				2B03F1C925928174004DE501 /* WhiskeyStrongerList.swift */,
+				2B03F1CF259282FA004DE501 /* WhiskeySweetList.swift */,
+				2BDCE79C25815B79005DEFFB /* RumList.swift */,
+				2B03F1D8259285CB004DE501 /* RumWinterList.swift */,
+				2B03F1DE259285EB004DE501 /* RumSummerList.swift */,
+				2B03F1E42592860F004DE501 /* RumStrongerList.swift */,
+				2B03F1EA25928631004DE501 /* RumSweetList.swift */,
+				2BDCE79F25815C9D005DEFFB /* GinList.swift */,
+				2B03F1FC25928EA1004DE501 /* GinWinterList.swift */,
+				2B03F1FF25928EAF004DE501 /* GinSummerlist.swift */,
+				2B03F20225928EC1004DE501 /* GinStrongerList.swift */,
+				2B03F20525928ED3004DE501 /* GinSweetList.swift */,
+				2BDCE7A225815DA1005DEFFB /* CognacList.swift */,
+				2B03F217259296B9004DE501 /* CognacWinterList.swift */,
+				2B03F21A259296C9004DE501 /* CognacSummerList.swift */,
+				2B03F21D259296DC004DE501 /* CognacStrongerList.swift */,
+				2B03F220259296EA004DE501 /* CognacSweetList.swift */,
+				2BDCE7A525815EBB005DEFFB /* TequilaList.swift */,
+				2B03F23225929C90004DE501 /* TequilaWinterList.swift */,
+				2B03F23525929CA7004DE501 /* TequilaSummerList.swift */,
+				2B03F23825929CBE004DE501 /* TequilaStrongerList.swift */,
+				2B03F23B25929CCF004DE501 /* TequilaSweetList.swift */,
+				2BDCE7A8258160F0005DEFFB /* MocktailList.swift */,
+				2BC2F7832588280C00CB87EE /* BlurView.swift */,
+				2B4FBAF225883DD300CB4D6F /* LottieView.swift */,
+				2B4FBAF52588415300CB4D6F /* LoadingView.swift */,
+				2B4FBAF8258843A500CB4D6F /* SuccessView.swift */,
+				2BDCE736257B15A0005DEFFB /* Assets.xcassets */,
+				2B4FBAE725883AA300CB4D6F /* Lottie */,
+				2BDCE73B257B15A0005DEFFB /* Info.plist */,
+				2BDCE738257B15A0005DEFFB /* Preview Content */,
+			);
+			path = PocketBartender;
+			sourceTree = "<group>";
+		};
+		2BDCE738257B15A0005DEFFB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2BDCE739257B15A0005DEFFB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		97E5E943654D66668D6F1DE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				554D6715D41E9AF6128F5E4A /* Pods-PocketBartender.debug.xcconfig */,
+				788A61B524A08D96B87886A7 /* Pods-PocketBartender.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E00D8AF309F3A406553C1B7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				226681F79E4AE60CE7715B08 /* Pods_PocketBartender.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BDCE72E257B159E005DEFFB /* PocketBartender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BDCE73E257B15A0005DEFFB /* Build configuration list for PBXNativeTarget "PocketBartender" */;
+			buildPhases = (
+				F29F2E3AF740DC538F08EAAF /* [CP] Check Pods Manifest.lock */,
+				2BDCE72B257B159E005DEFFB /* Sources */,
+				2BDCE72C257B159E005DEFFB /* Frameworks */,
+				2BDCE72D257B159E005DEFFB /* Resources */,
+				33786F44A0F8F5B670E54612 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketBartender;
+			packageProductDependencies = (
+				2B4FBAEE25883D6D00CB4D6F /* Lottie */,
+			);
+			productName = PocketBartender;
+			productReference = 2BDCE72F257B159E005DEFFB /* PocketBartender.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BDCE727257B159E005DEFFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					2BDCE72E257B159E005DEFFB = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 2BDCE72A257B159E005DEFFB /* Build configuration list for PBXProject "PocketBartender" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BDCE726257B159E005DEFFB;
+			packageReferences = (
+				2B4FBAED25883D6D00CB4D6F /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 2BDCE730257B159E005DEFFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BDCE72E257B159E005DEFFB /* PocketBartender */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BDCE72D257B159E005DEFFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDCE73A257B15A0005DEFFB /* Preview Assets.xcassets in Resources */,
+				2B4FBAEA25883AA300CB4D6F /* success lottie.json in Resources */,
+				2B4FBAFC25884AD800CB4D6F /* GoogleService-Info.plist in Resources */,
+				2B4FBAEB25883AA300CB4D6F /* loading Lottie.json in Resources */,
+				2BDCE737257B15A0005DEFFB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33786F44A0F8F5B670E54612 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PocketBartender/Pods-PocketBartender-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PocketBartender/Pods-PocketBartender-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PocketBartender/Pods-PocketBartender-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F29F2E3AF740DC538F08EAAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PocketBartender-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BDCE72B257B159E005DEFFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDCE774257D5EE5005DEFFB /* CognacView.swift in Sources */,
+				2BDCE7A9258160F0005DEFFB /* MocktailList.swift in Sources */,
+				2BDCE735257B159E005DEFFB /* ContentView.swift in Sources */,
+				2B03F1BE25927D74004DE501 /* WHiskeyWinterList.swift in Sources */,
+				2B03F23325929C90004DE501 /* TequilaWinterList.swift in Sources */,
+				2B03F22425929B14004DE501 /* TequilaExtras.swift in Sources */,
+				2B03F23025929C80004DE501 /* TequilaSweetView.swift in Sources */,
+				2B4FBAF62588415300CB4D6F /* LoadingView.swift in Sources */,
+				2B03F23C25929CCF004DE501 /* TequilaSweetList.swift in Sources */,
+				2BDCE7A325815DA1005DEFFB /* CognacList.swift in Sources */,
+				2B03F20F259295AA004DE501 /* CognacSummerView.swift in Sources */,
+				2B03F1FD25928EA1004DE501 /* GinWinterList.swift in Sources */,
+				2B03F1D6259285BC004DE501 /* RumWinterView.swift in Sources */,
+				2B03F23625929CA7004DE501 /* TequilaSummerList.swift in Sources */,
+				2B03F1EE25928CBD004DE501 /* GinExtras.swift in Sources */,
+				2B03F1CD2592820B004DE501 /* WhiskeySweetView.swift in Sources */,
+				2B03F218259296B9004DE501 /* CognacWinterList.swift in Sources */,
+				2B03F1DC259285DC004DE501 /* RumSummerView.swift in Sources */,
+				2BDCE771257D5ED0005DEFFB /* GinView.swift in Sources */,
+				2B4FBB3D25885D1F00CB4D6F /* UserStore.swift in Sources */,
+				2B03F1D0259282FA004DE501 /* WhiskeySweetList.swift in Sources */,
+				2B03F1EB25928631004DE501 /* RumSweetList.swift in Sources */,
+				2B03F215259295CE004DE501 /* CognacSweetView.swift in Sources */,
+				2B03F22A25929C59004DE501 /* TequilaSummerView.swift in Sources */,
+				2BDCE733257B159E005DEFFB /* PocketBartenderApp.swift in Sources */,
+				2B03F212259295BC004DE501 /* CognacStrongerView.swift in Sources */,
+				2B4FBB43258861FA00CB4D6F /* AppDelegate.swift in Sources */,
+				2B03F1BB25927C18004DE501 /* WhiskeyWinterView.swift in Sources */,
+				2BDCE7A625815EBB005DEFFB /* TequilaList.swift in Sources */,
+				2B03F20025928EAF004DE501 /* GinSummerlist.swift in Sources */,
+				2BDCE77D257D5F3A005DEFFB /* AdminView.swift in Sources */,
+				2B03F1A025917EBA004DE501 /* VodkaSweetList.swift in Sources */,
+				2BDCE777257D5EFE005DEFFB /* TequilaView.swift in Sources */,
+				2B03F1F125928E5E004DE501 /* GinWinterView.swift in Sources */,
+				2BDCE76E257D5EBB005DEFFB /* RumView.swift in Sources */,
+				2B03F1D9259285CB004DE501 /* RumWinterList.swift in Sources */,
+				2B03F0E0259139A1004DE501 /* VodkaExtras.swift in Sources */,
+				2BDCE79925815894005DEFFB /* WhiskeyList.swift in Sources */,
+				2B4FBAF325883DD300CB4D6F /* LottieView.swift in Sources */,
+				2B03F19A25917ACA004DE501 /* VodkaSummerList.swift in Sources */,
+				2BDCE79D25815B79005DEFFB /* RumList.swift in Sources */,
+				2BC2F76C2588123700CB87EE /* loginView.swift in Sources */,
+				2B03F19D25917CE2004DE501 /* VodkaStrongerList.swift in Sources */,
+				2B03F1B82592796D004DE501 /* WhiskeyExtras.swift in Sources */,
+				2B03F21E259296DC004DE501 /* CognacStrongerList.swift in Sources */,
+				2B03F1F425928E6F004DE501 /* GinSummerView.swift in Sources */,
+				2B03F1F725928E80004DE501 /* GinStrongerView.swift in Sources */,
+				2B03F1CA25928174004DE501 /* WhiskeyStrongerList.swift in Sources */,
+				2B03EFE1258D6AD7004DE501 /* ExtraView.swift in Sources */,
+				2BDCE768257D5E75005DEFFB /* VodkaView.swift in Sources */,
+				2B03F125259152CD004DE501 /* VodkaSummerView.swift in Sources */,
+				2B03F20C2592959A004DE501 /* CognacWinterView.swift in Sources */,
+				2B03F1C725928047004DE501 /* WhiskeyStrongerView.swift in Sources */,
+				2B03F23925929CBE004DE501 /* TequilaStrongerList.swift in Sources */,
+				2B03F21B259296C9004DE501 /* CognacSummerList.swift in Sources */,
+				2B03F1E825928620004DE501 /* RumSweetView.swift in Sources */,
+				2B03F1E52592860F004DE501 /* RumStrongerList.swift in Sources */,
+				2BDCE76B257D5E8B005DEFFB /* WhiskeyView.swift in Sources */,
+				2B03F1FA25928E90004DE501 /* GinSweetView.swift in Sources */,
+				2B03F128259152E5004DE501 /* VodkaStrongerView.swift in Sources */,
+				2BDCE7A025815C9D005DEFFB /* GinList.swift in Sources */,
+				2B03F20625928ED3004DE501 /* GinSweetList.swift in Sources */,
+				2B03F15825915FCA004DE501 /* VodkaWinterList.swift in Sources */,
+				2BDCE78A25800959005DEFFB /* HomeView.swift in Sources */,
+				2B03F1E2259285FD004DE501 /* RumStrongerView.swift in Sources */,
+				2B03F122259152BA004DE501 /* VodkaWinterView.swift in Sources */,
+				2B4FBB40258861E900CB4D6F /* SceneDelegate.swift in Sources */,
+				2BC2F7842588280C00CB87EE /* BlurView.swift in Sources */,
+				2B4FBAF9258843A500CB4D6F /* SuccessView.swift in Sources */,
+				2B03F1C125927E2F004DE501 /* WhiskeySummerView.swift in Sources */,
+				2B03F22725929C41004DE501 /* TequilaWinterView.swift in Sources */,
+				2BDCE783257DA748005DEFFB /* CocktailView.swift in Sources */,
+				2B03F12B259152F5004DE501 /* VodkaSweetView.swift in Sources */,
+				2B03F1C425927F58004DE501 /* WhiskeySummerList.swift in Sources */,
+				2B03F1DF259285EB004DE501 /* RumSummerList.swift in Sources */,
+				2B03F22D25929C6C004DE501 /* TequilaStrongerView.swift in Sources */,
+				2B03F1D3259283CB004DE501 /* RumExtras.swift in Sources */,
+				2B03F20325928EC1004DE501 /* GinStrongerList.swift in Sources */,
+				2B4FBBD9258D411100CB4D6F /* Extraslist.swift in Sources */,
+				2B03F20925929426004DE501 /* CognacExtras.swift in Sources */,
+				2BDCE77A257D5F17005DEFFB /* MocktailView.swift in Sources */,
+				2B03F221259296EA004DE501 /* CognacSweetList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2BDCE73C257B15A0005DEFFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BDCE73D257B15A0005DEFFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BDCE73F257B15A0005DEFFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 554D6715D41E9AF6128F5E4A /* Pods-PocketBartender.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_ASSET_PATHS = "\"PocketBartender/Preview Content\"";
+				DEVELOPMENT_TEAM = JWF884XBZJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PocketBartender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brick-squad.PocketBartender";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BDCE740257B15A0005DEFFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 788A61B524A08D96B87886A7 /* Pods-PocketBartender.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_ASSET_PATHS = "\"PocketBartender/Preview Content\"";
+				DEVELOPMENT_TEAM = JWF884XBZJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PocketBartender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brick-squad.PocketBartender";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BDCE72A257B159E005DEFFB /* Build configuration list for PBXProject "PocketBartender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BDCE73C257B15A0005DEFFB /* Debug */,
+				2BDCE73D257B15A0005DEFFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BDCE73E257B15A0005DEFFB /* Build configuration list for PBXNativeTarget "PocketBartender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BDCE73F257B15A0005DEFFB /* Debug */,
+				2BDCE740257B15A0005DEFFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2B4FBAED25883D6D00CB4D6F /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2B4FBAEE25883D6D00CB4D6F /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B4FBAED25883D6D00CB4D6F /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2BDCE727257B159E005DEFFB /* Project object */;
+}
